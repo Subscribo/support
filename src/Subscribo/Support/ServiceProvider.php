@@ -1,5 +1,8 @@
-<?php namespace Subscribo\Support;
+<?php
 
+namespace Subscribo\Support;
+
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Subscribo\Support\Traits\EnhancedServiceProviderTrait;
 
 /**
@@ -8,7 +11,7 @@ use Subscribo\Support\Traits\EnhancedServiceProviderTrait;
  *
  * @package Subscribo\Support
  */
-abstract class ServiceProvider extends \Subscribo\Support\Fixes\ServiceProvider
+abstract class ServiceProvider extends BaseServiceProvider
 {
     use EnhancedServiceProviderTrait;
 
