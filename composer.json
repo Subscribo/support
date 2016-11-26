@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "php": "~5.4",
-        "illuminate/support": "~5.0"
+        "php": "^5.4 || ^7.0",
+        "illuminate/support": "^5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.7"
@@ -33,11 +33,6 @@
     "autoload": {
         "psr-4": {
             "Subscribo\\Support\\": "src/Subscribo/Support/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }

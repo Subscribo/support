@@ -11,7 +11,7 @@ Support package with common shared functionality, extending Laravel classes and 
 1.1.2 Dependency under "require" key
 
 ```json
-    "subscribo/support": "@dev"
+    "subscribo/support": "^0.1.0"
 ```
 
 If used with package adding this dependency for you, this step (1.1.2) is not necessary.
